@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 import './ButtonPanel.css'
 
-const ButtonPanel = ({ onButtonClick, clearButton }) => {
+const ButtonPanel = ({ onButtonClick }) => {
     const buttons = [
         { value: 'AC', className: "special" },
         { value: '+/-', className: "special" },
