@@ -30,12 +30,19 @@
 .button.operator {
     background-color: #ff9500;
     color: #fff;
+    font-size: 1.5rem;
 }
 
 .button.operator:hover {
-    background-color: #ffac33;
-    
+    background-color: #ffac33;   
 }
+
+.button.operator:focus {
+    background-color: #fff;
+    color: #ff9500;
+}
+
+
 
 .button.special {
     background-color: #a6a6a6;
